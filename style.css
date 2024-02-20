@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.board {
+    height: 75vh;
+    transform: rotateX(45deg);
+}
+
+.store {
+    height: 150px;
+    width: 100px;
+    background-color: red;
+    margin: 3px;
+}
+
+.me,
+.enemy {
+    display: flex;
+}
+
+.boxplace {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.left,
+.right {
+    display: flex;
+}
+
+#mybox {
+    margin-top: 200px;
+}
+
+#enemybox {
+    margin-top: 20px;
+}
+
+#shortgun {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0) rotate(90deg);
+    margin: -16px;
+}

@@ -1,0 +1,58 @@
+Done
+    Health of you and enemy
+    damage
+    turn
+    Inventory of you and enemy 
+    get random buttles for every round and show them fill the gun with bullets in random order 
+    shoot{
+        get or give damage according to the User parameter
+        condition for double damage
+    }
+    useHandcuffs{
+        change the isEnemyOnHandCuffs or areYouOnHandCuffs value
+    }
+    useDrink{
+        remove the first bullet from the array and show to the person in subtitles that it was a working one or not
+        
+    }
+    useCigarette{
+        increase health according to the User variable
+    }
+    condition for opening box on bullet getting empty
+    open box get all the new ITEMs according to the new ammount can be give in that perticular round
+
+
+
+toDOs
+    if using handcuffs and 2 times turn 
+    check the element is not getting used second time{
+        only one handcuffs applicable
+        only one time cutter available 
+    }
+    remove Item after use from Inventory
+    isEnemyOnHandCuffs or areYouOnHandCuffs variable
+    Make the user parameter work by putting the name of the user {enemy or your}
+    Round system {
+        change the amount of buttles in round needed variable 
+        change the amount of Item in round needed variable
+        change first turn variable
+        best out of 3 round
+    }
+    Add money after the game end on how much loses you had
+    Show the Players there enventory and click event to use the useItemFunctions
+
+
+
+
+
+
+
+
+Big stuff:
+    Add sockets for online play
+    integrate mongoDb as database
+    Add Authentication
+    Add leaderboard with name games win and loss and money have 
+    show online players 
+    send link to play 
+    Add friend 
